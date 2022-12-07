@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Hrs Project</title>
+</head>
+<body>
+    <form>
+        <label for="expenseAmount">Expense Amount</label>
+        <input type="text" name="expenseAmount" id="expenseAmount" />
+        <label for="Description">Description</label>
+        <input type="text" name="Description" id="Description" />
+        <label for="Category">Category</label>
+        <select name="Category" id="Category">
+            <option value="fuel">fuel</option>
+            <option value="food">food</option>
+            <option value="electricity">electricity</option>
+            <option value="movie">movie</option>
+        </select>
+        <button id="button">Add Expense</button>
+    </form>
+    <ul id="itemList"></ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
